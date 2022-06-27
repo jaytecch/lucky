@@ -46,13 +46,13 @@ function App() {
        
         <Switch>
         <ScrollToTopRoute exact={true} path='/'>
-          <HomeTwo/>
+          <HomeThree/>
         </ScrollToTopRoute>
         <ScrollToTopRoute exact={true} path='/index-2'>
         <HomeOne/>
         </ScrollToTopRoute>
         <ScrollToTopRoute exact={true} path='/index-3'>
-        <HomeThree/>
+        <HomeTwo/>
         </ScrollToTopRoute>
         <ScrollToTopRoute exact={true} path='/shop'>
          <Shop/>
