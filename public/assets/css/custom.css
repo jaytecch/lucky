@@ -32,23 +32,6 @@
 }
 
 
-
-
-.connect-button {
-    color: #000;
-    font-family: 'Orbitron', sans-serif;
-    background-color: gold;
-    font-size: 1rem;
-    padding: 0.5em;
-    cursor: pointer;
-}
-
-.connect-button:hover{
-    background-color: red;
-    color:rgb(255, 255, 255)!important;
-}
-
-
 main {
     background-color: rgb(1, 2, 12);
     background-image: url(../img/bg/lucky_bg.jpeg);
@@ -171,9 +154,7 @@ main p, .phase4{
 }
 
 /* TEAM */
-.team {
-    background-color: black;
-}
+
 .team-member{
     border: 2px solid groove;
     border-radius: 10px;
@@ -247,7 +228,7 @@ main p, .phase4{
 }
 
 footer{
-    background-color: #2a2a32;
+    background-color: #000000;
 }
 
 

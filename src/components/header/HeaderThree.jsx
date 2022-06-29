@@ -114,11 +114,7 @@ function HeaderThree() {
                       <li><a href="#team">Team</a></li>
                     </ul>
                   </div>
-                  <div className="header-action">
-                    <ul>
-                      <li className="header-search"><a href="/#" data-toggle="modal" data-target="#search-modal"><i className="fas fa-search" /></a></li>
-                    </ul>
-                  </div>
+                   
                 </nav>
               </div>
               <div className="mobile-menu-wrap main-menu d-block d-lg-none">
