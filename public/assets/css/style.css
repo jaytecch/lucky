@@ -42,12 +42,17 @@
 
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url("./custom.css");
+
 @font-face {
     font-family: 'grinddemolished';
     src: url('../fonts/grind_demolished-webfont.woff2') format('woff2'),
          url('../fonts/grind_demolished-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+:root{
+	--gc: gold
 }
 body {
 	font-family: 'Poppins', sans-serif;
@@ -345,6 +350,10 @@ label {
 	border-radius: 0;
 	font-size: 22px;
 	line-height: 38px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 }
 #scrollUp:hover {
 	background: #444;
@@ -869,7 +878,7 @@ ul.minicart .cart-price .new {
     line-height: 32px;
     border-radius: 4px;
     box-shadow: rgb(0 0 0 / 35%) 0px 3px 7px 0px;
-    color: #ff4800;
+    color: var(--gc);
     font-size: 12px;
 }
 .t-header-top-area .header-top-login ul {
@@ -885,18 +894,22 @@ ul.minicart .cart-price .new {
     font-family: 'Oxanium', cursive;
 }
 .t-header-top-area .header-top-login ul li a {
-    display: block;
-    background: #23262d;
-    text-transform: uppercase;
-    color: #cfcdcd;
-    font-weight: 700;
-    font-size: 11px;
-    font-family: 'Oxanium', cursive;
-    padding: 2px 23px 2px 7px;
-    border-top: 2px solid #2a2b37;
+	display: block;
+	background: #050411;
+	text-transform: uppercase;
+	color: #cfcdcd;
+	font-weight: 700;
+	font-size: 11px;
+	font-family: 'Oxanium', cursive;
+	padding: 2px 23px 2px 7px;
+	border-top: 2px solid #2a2b37;
 	border-bottom: 2px solid #2a2b37;
-	border-radius: 3px;
-  	box-shadow: rgb(0 0 0 / 35%) 0px 3px 7px 0px;
+	box-shadow: rgb(0 0 0 / 35%) 0px 3px 7px 0px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px ;
+	-moz-border-radius: 10px ;
+	-ms-border-radius: 10px ;
+	-o-border-radius: 10px ;
 }
 .t-header-top-area .header-top-login ul li a i {
     width: 29px;
@@ -906,10 +919,10 @@ ul.minicart .cart-price .new {
     line-height: 25px;
     background: #1d1e29;
     margin-right: 15px;
-    color: #ff4800;
+    color: var(--gc);
 }
 .t-header-top-area .header-top-login ul li a:hover {
-	color: #ff4800;
+	color: var(--gc);
 }
 .t-header-top-area {
     background: transparent;
@@ -954,7 +967,7 @@ ul.minicart .cart-price .new {
 .third-banner-content h2 span,
 .third-title-style h2 span,
 .third-title-style .vertical-title {
-    color: #ee5519;
+    color: var(--gc);
 }
 .third-header-bg .menu-style-two .navbar-wrap > ul > li > a {
     padding: 35px 0;
@@ -1416,9 +1429,9 @@ ul.minicart .cart-price .new {
 }
 .rotated-btn {
     font-size: 16px;
-    background: #ff5917;
+    background: #000;
     border-radius: 0;
-    color: #fff;
+    color: var(--gc);
     padding: 19px 31px;
     margin-left: 17px;
     margin-right: 17px;
@@ -1433,7 +1446,7 @@ ul.minicart .cart-price .new {
     top: 0;
     width: 0;
     height: 0;
-    border-top: 54px solid #ff5917;
+    border-top: 54px solid #fff;
     left: -17px;
 	border-left: 17px solid transparent;
 	transition: all 0.3s ease 0s;
@@ -1446,7 +1459,7 @@ ul.minicart .cart-price .new {
     top: 0;
     width: 0;
     height: 0;
-    border-top: 54px solid #ff5917;
+    border-top: 54px solid #fff;
     right: -17px;
 	border-right: 17px solid transparent;
 	transition: all 0.3s ease 0s;
@@ -1490,7 +1503,7 @@ ul.minicart .cart-price .new {
     bottom: -20px;
     height: 20px;
     width: 1065px;
-    background: #ee5519;
+    background: var(--gc);
     margin: 0 auto;
 	right: 0;
 	opacity: .35;
@@ -4971,7 +4984,7 @@ ul.minicart .cart-price .new {
 .home-five-header .navbar-wrap ul li .submenu li:hover > a,
 .home-five-header .navbar-wrap ul li .submenu li.active > a,
 .home-five-header .header-action ul li.header-search a {
-    color: #fa0101;
+    color: var(--gc);
 }
 .home-five-header .t-header-top-area .header-top-login ul li a i {
     color: #cfcdcd;
