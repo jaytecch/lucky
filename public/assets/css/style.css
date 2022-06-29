@@ -1419,7 +1419,7 @@ ul.minicart .cart-price .new {
 	left: auto;
 }
 .third-banner-bg {
-    background-image: url(../img/slider/slider.jpeg);
+    background-image: url(../img/slider/1.png);
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -1428,13 +1428,19 @@ ul.minicart .cart-price .new {
 	height: 90vh;
 }
 .rotated-btn {
-    font-size: 16px;
-    background: #000;
-    border-radius: 0;
-    color: var(--gc);
-    padding: 19px 31px;
-    margin-left: 17px;
-    margin-right: 17px;
+	font-size: 16px;
+	background: #000;
+	border-radius: 0;
+	color: var(--gc);
+	padding: 19px 31px;
+	margin-left: 17px;
+	margin-right: 30px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 1;
 }
 .rotated-btn:hover {
 	color: #fff;
@@ -1518,7 +1524,7 @@ ul.minicart .cart-price .new {
 }
 .third-banner-absolute{
 	position: absolute;
-	bottom: 70px;
+	bottom: 30px;
 }
 .third-banner-content {
     position: relative;
@@ -1895,7 +1901,7 @@ ul.minicart .cart-price .new {
     margin-bottom: 0;
 }
 .third-section-title h2 span {
-	color: #ff5917;
+	color: #fff;
 }
 .third-section-title {
     padding-bottom: 25px;
@@ -2671,6 +2677,10 @@ ul.minicart .cart-price .new {
 	background: #e9a301;
 	transition: .3s linear;
 	opacity: 0;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+	-ms-transition: .3s linear;
+	-o-transition: .3s linear;
 }
 .team-member-content h4 {
 	font-size: 20px;
@@ -2691,6 +2701,10 @@ ul.minicart .cart-price .new {
 .team-member-box:hover .team-member-social {
 	transform: translateX(0px);
 	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
 }
 .team-member-content span {
 	display: block;
@@ -2718,7 +2732,7 @@ ul.minicart .cart-price .new {
     z-index: 1;
 }
 .third-team-content .main-bg {
-    background-image: url(../img/bg/team_content_bg.png);
+    background-image: url(../img/bg/mouse-out.png);
     width: 302px;
     height: 93px;
     position: absolute;
@@ -2729,7 +2743,7 @@ ul.minicart .cart-price .new {
     top: -10px;
 }
 .third-team-content .hover-bg {
-    background-image: url(../img/bg/team_content_hover_bg.png);
+    background-image: url(../img/bg/mouse-over.png);
     width: 302px;
     height: 93px;
     position: absolute;
@@ -2755,7 +2769,7 @@ ul.minicart .cart-price .new {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
-	color: #ff5917;
+	color: var(--gc);
 	transition: .3s linear;
 }
 .third-team-content h5 a:hover {

@@ -105,7 +105,7 @@ function HeaderThree() {
 
                     </ul>
                     <div className="logo">
-                      <Link to="/home-three"><img src="assets/img/logo/logol.png" alt="Logo" /></Link>
+                      <Link to="/home-three"><img src="assets/img/logo/33.png" alt="Logo" /></Link>
                     </div>
                     <ul className="right">
                       <li><a href="#">Lucky paper</a></li>

@@ -7,7 +7,7 @@ import SliderThree from './Slider'
 import Story from "./Story"
 import Amalgamation from './Amalgamation';
 import Merch from "./Merch"
-import Team from './Team';
+import TeamArea from './TeamArea';
 import { Footer } from './Footer';
 
 function IndexThree() {
@@ -40,7 +40,7 @@ function IndexThree() {
           <Merch />
 
           {/* Team */}
-          <Team />
+          <TeamArea />
 
           {/* Footer */}
           <Footer />
