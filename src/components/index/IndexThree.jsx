@@ -18,7 +18,7 @@ function IndexThree() {
       {/* header-area */}
       <HeaderThree />
       {/* header-area-end */}
-      
+
       {/* main-area */}
       <main>
         {/* slider-area */}
@@ -34,10 +34,11 @@ function IndexThree() {
 
         {/* benfits */}
         <Benefits />
+        
         {/* RoadMap */}
         <RoadMap />
 
-        {/* <Roadmap /> */}
+       
 
         {/* Amalgamation  */}
         <Amalgamation />
