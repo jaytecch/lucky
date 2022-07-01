@@ -966,7 +966,7 @@ ul.minicart .cart-price .new {
 .third-banner-content h2 span,
 .third-title-style h2 span,
 .third-title-style .vertical-title {
-    color: var(--gc);
+    color: #fff;
 }
 .third-header-bg .menu-style-two .navbar-wrap > ul > li > a {
     padding: 35px 0;
@@ -980,6 +980,17 @@ ul.minicart .cart-price .new {
     transform: translateX(-50%);
 	top: -62px;
 	z-index: 9;
+}
+.h_logo_wrapper{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.h_logo{
+	position: absolute;
+	
 }
 .third-header-bg .navbar-wrap ul.left {
     margin-left: 0;
@@ -1452,7 +1463,7 @@ ul.minicart .cart-price .new {
 	top: 0;
 	width: 0;
 	height: 0;
-	border-top: 54px solid #fff;
+	border-top: 54px solid var(--gc);
 	left: -17px;
 	border-left: 17px solid transparent;
 	transition: all 0.3s ease 0s;
@@ -1469,7 +1480,7 @@ ul.minicart .cart-price .new {
 	top: 0;
 	width: 0;
 	height: 0;
-	border-top: 54px solid #fff;
+	border-top: 54px solid var(--gc);
 	right: -17px;
 	border-right: 17px solid transparent;
 	transition: all 0.3s ease 0s;
@@ -1502,7 +1513,8 @@ ul.minicart .cart-price .new {
     letter-spacing: 10px;
     line-height: 1.6;
     font-size: 20px;
-    margin-bottom: 30px;
+	position: absolute;
+	
 }
 .third-banner-img {
     text-align: center;
@@ -1529,6 +1541,8 @@ ul.minicart .cart-price .new {
 .third-banner-content {
     position: relative;
     z-index: 1;
+	display: flex;
+	justify-content: center;
 }
 .home-four-slider .slider-bg {
     background-image: url(../img/slider/fourth_banner_bg.jpg);
@@ -3482,7 +3496,7 @@ ul.minicart .cart-price .new {
 
 /* Donation */
 .donation-bg {
-    background-image: url(../img/bg/donation_bg.jpg);
+    background-image: url(../img/bg/streetwear_bg.jpeg);
     background-position: center;
     background-size: cover;
 }

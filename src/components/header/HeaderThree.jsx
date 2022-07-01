@@ -102,10 +102,9 @@ function HeaderThree() {
                       <li><a href="#story">Story</a></li>
                       <li><a href="#">Benefits</a></li>
                       <li><a href="/#roadmap">Roadmap</a></li>
-
                     </ul>
                     <div className="logo">
-                      <Link to="/home-three"><img src="assets/img/logo/33.png" alt="Logo" /></Link>
+                      <Link to="/home-three"><img src="assets/img/logo/h_logol.png" alt="Logo" /></Link>
                     </div>
                     <ul className="right">
                       <li><a href="#">Lucky paper</a></li>

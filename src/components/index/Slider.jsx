@@ -11,7 +11,6 @@ function Slider() {
                   <div className="third-banner-content text-center wow bounceInUp my-0" data-wow-delay=".2s">
                     <Bounce bottom>
                     <h6>Jungle Verse</h6>
-                    <a href="/#" className="btn rotated-btn">Join Our Community</a>
                     </Bounce>
                   </div>
                 </div>

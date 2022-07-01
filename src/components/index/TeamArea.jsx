@@ -20,7 +20,7 @@ function TeamArea() {
                     <div className="third-team-content">
                       <div className="main-bg" />
                       <div className="hover-bg" />
-                      <h5><a href="/#">Farid Elyased</a></h5>
+                      <h5><a href="/#">Farid Elsayed</a></h5>
                       <span>Lead</span>
                     </div>
                   </div>
@@ -33,7 +33,7 @@ function TeamArea() {
                     <div className="third-team-content">
                       <div className="main-bg" />
                       <div className="hover-bg" />
-                      <h5><a href="/#">Robert Jyuish</a></h5>
+                      <h5><a href="/#">Robert Jaiyush</a></h5>
                       <span>Smart Contract Developer</span>
                     </div>
                   </div>

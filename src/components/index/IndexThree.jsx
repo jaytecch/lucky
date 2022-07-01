@@ -2,50 +2,56 @@ import React from 'react'
 
 import HeaderThree from '../header/HeaderThree';
 import Evolution from './Evolution';
-import Roadmap from "./Roadmap"
 import SliderThree from './Slider'
 import Story from "./Story"
 import Amalgamation from './Amalgamation';
 import Merch from "./Merch"
+import Benefits from './Benefits';
 import TeamArea from './TeamArea';
 import { Footer } from './Footer';
+import RoadMap from './RoadMap';
+
 
 function IndexThree() {
   return (
-	  <>
-	  	{/* header-area */}
-      		<HeaderThree/>
-        {/* header-area-end */}
-        {/* main-area */}
-        <main>
-          {/* slider-area */}
-          	<SliderThree/>
-          {/* slider-area-end */}
+    <>
+      {/* header-area */}
+      <HeaderThree />
+      {/* header-area-end */}
+      
+      {/* main-area */}
+      <main>
+        {/* slider-area */}
+        <SliderThree />
+        {/* slider-area-end */}
 
-          {/* Story */}
-          <Story />
+        {/* Story */}
+        <Story />
 
-          {/* Evolution */}
+        {/* Evolution */}
 
-          <Evolution />
+        <Evolution />
 
-          {/* RoadMap */}
+        {/* benfits */}
+        <Benefits />
+        {/* RoadMap */}
+        <RoadMap />
 
-          <Roadmap />
+        {/* <Roadmap /> */}
 
-          {/* Amalgamation  */}
-          <Amalgamation />
+        {/* Amalgamation  */}
+        <Amalgamation />
 
-          {/* Merch */}
-          <Merch />
+        {/* Merch */}
+        <Merch />
 
-          {/* Team */}
-          <TeamArea />
+        {/* Team */}
+        <TeamArea />
 
-          {/* Footer */}
-          <Footer />
-         </main>
-		</>
+        {/* Footer */}
+        <Footer />
+      </main>
+    </>
 
 
 

@@ -1,34 +1,34 @@
+import React from 'react'
 
-import { merch } from '../../imports/images';
-
-
-
-
-
-const Merch= () => {
-    
-
-    return (
-        <div id="merch" className='row m-0 my-5 pt-3'>
-            <div className='col-sm-6 d-flex justify-content-center '>
-
-                <img src={merch} className='w-100' alt='' />
-
-            </div>
-
-            <div className='col-12 col-sm-6 d-flex flex-column align-items-center justify-content-center gap-3'>
-                <h2 className='text-center'>STREET WEAR COLLECTION</h2>
-                <p className='text-center px-3'>
-                    Explore &amp; Shop our exclusive streetwear collection.
-                </p>
-                <div>
-                   <a href="#" className='btn rotated-btn'>Shop Now</a>
+function Merch() {
+  return (
+	  <section className="donation-area donation-bg fix pt-65 pb-5">
+            <div className="container custom-container">
+              <div className="donation-wrap">
+                <div className="row align-items-center">
+                  <div className="col-xl-6 col-lg-7">
+                    <div className="donation-content">
+                      <div className="third-title-style">
+                        <h2>street <span>wear</span> collection</h2>
+                        <div className="inner">
+                          <h2>WORLDS MEET REAL</h2>
+                          <h6 className="vertical-title">donation</h6>
+                          <p>Explore &amp; Shop our exclusive streetwear collection.</p>
+                        </div>
+                        <a href="/#" className="btn rotated-btn">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6 col-lg-5">
+                    <div className="donation-img text-center">
+                      <img src="assets/img/merch/wear.png" alt="" />
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-
-
-    )
+          </section>
+  )
 }
 
 export default Merch

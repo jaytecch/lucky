@@ -112,25 +112,38 @@ main p, .phase4{
 }
 }
 
-/* UTILITIES */
-
+/* Benefits */
+.benefits-bg{
+    background-image: url(../img/bg/benefits_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.benefits-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits-container .benefit-img{
+    max-width: 1000px;
+    position: relative;
+    z-index: 1;
+}
+.benefits-container .benefits-coin{
+    position : absolute;
+    width: 100%;
+    max-width: 950px;
+}
 
 
 
 
 /* RoadMap */
-.gnut-wrapper{
-    max-width: 250px;
-    max-height: 200px
+.roadmap-placeholder{
+    position: absolute;
+    left: 0;
+    top:0;
 }
-
-.phase{
-    font-size: 2rem
-}
-.phase-sub{
-    font-size: 1.4rem;
-}
-
 
 /* Amalgamation */
 
@@ -220,6 +233,11 @@ main p, .phase4{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+}
+
+.merch{
+    background-image: url('../img/bg/streetwear_bg.jpeg');
+    padding: 7em 1em;
 }
 
 .name, .role{
