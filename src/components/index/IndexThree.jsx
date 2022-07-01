@@ -9,7 +9,7 @@ import Merch from "./Merch"
 import Benefits from './Benefits';
 import TeamArea from './TeamArea';
 import { Footer } from './Footer';
-import RoadMap from './RoadMap';
+import RoadMap from './Roadmap';
 
 
 function IndexThree() {
@@ -34,7 +34,7 @@ function IndexThree() {
 
         {/* benfits */}
         <Benefits />
-        
+
         {/* RoadMap */}
         <RoadMap />
 
