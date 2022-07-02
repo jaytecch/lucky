@@ -4,10 +4,10 @@ import { sampleNftImages, icons} from '../../imports/images';
 
 const Amalgamation = () => {
   return (
-    <section className='mt-5 text-center' data-aos="slide-up" data-aos-duration="3000">
+    <section className='third-section-title mt-5 text-center' data-aos="slide-up" data-aos-duration="3000">
                 <h2>AMALGAMATION</h2>
                 <article className='w-75 mx-auto'>
-                    <h3 style={{ color: 'white', textDecoration: 'underline' }} className="fst-italic">WHAT DOES <span style={{ color: 'gold' }}>BREEDING</span> MEAN FOR LEC?</h3>
+                    <h5 style={{ color: 'white', textDecoration: 'underline' }} className="fst-italic">WHAT DOES <span style={{ color: 'gold' }}>BREEDING</span> MEAN FOR LEC?</h5>
 
                     <p>
                         The simplest answer is you will create a new elephant that will inherit some attributes from the parents, andsome will be traits added randomly.
@@ -40,7 +40,7 @@ const Amalgamation = () => {
                 </div>
 
                 <article className='w-75 mx-auto'>
-                    <h3 style={{ color: 'white', textDecoration: 'underline' }} className="fst-italic">WHAT IF I ONLY OWN <span style={{ color: 'gold' }}>ONE</span> ELEPHANT?</h3>
+                    <h5 style={{ color: 'white', textDecoration: 'underline' }} className="fst-italic">WHAT IF I ONLY OWN <span style={{ color: 'gold' }}>ONE</span> ELEPHANT?</h5>
 
                     <p>
                         Not a problem at all, we have added a way to evolve your solo NFT with our Amalgamator and valuable

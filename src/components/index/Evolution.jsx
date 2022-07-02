@@ -9,7 +9,7 @@ const Evolution = () => {
                 <img src={sampleNftImages.elephant4} alt='' className='evol-img w-100 mx-3' />
             </div>
 
-            <div className='col-sm-6 d-flex flex-column align-items-center gap-3'>
+            <div className='third-section-title col-sm-6 d-flex flex-column align-items-center gap-3'>
                 <h2 className='text-center' data-aos="zoom-out" data-aos-duration="2500">EVOLUTION</h2>
                 <p className='text-center px-3'>
                     Though the elephants could not be bitten and infected via saliva, blood, or others similar to that, their food source was running slow.
