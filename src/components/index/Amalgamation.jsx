@@ -14,12 +14,13 @@ const Amalgamation = () => {
                         But here is the thing, we are not sticking to the traditional way of inheriting traits from female and male parents.We wanted to change it up and let your Lucky Elephant evolve, reaching uncharted territory by our style ofcrossbreeding.
                     </p>
                 </article>
-                <h3 className='fst-italic d-inline-block p-2 rounded' style={{
+                <h6 className='d-inline-block p-2 rounded' style={{
                     color: 'black',
                     border: '2px solid black',
                     backgroundColor: 'gold',
+                    fontStyle: "italic",
 
-                }}>AMALGAMATION &nbsp; (THE PROCESS)</h3>
+                }}>AMALGAMATION &nbsp; (THE PROCESS)</h6>
                 <div className='row px-3 mb-4'>
                     <div className=' col-sm-4 col col-md-3 rs-image' data-aos="fade-up" data-aos-duration="2500">
                         <img src={sampleNftImages.elephant1} alt='' className='w-100 h-100' />
