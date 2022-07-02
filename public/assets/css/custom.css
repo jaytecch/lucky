@@ -87,10 +87,17 @@ main p, .phase4{
     -o-border-radius: 12px;
 }
 .evol{
-  
     animation: evol-rotate 12s linear infinite;
     -webkit-animation: evol-rotate 12s linear infinite;
     transform-origin: center center;
+   
+}
+.evol img{
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: 20px auto;
 }
 
 @keyframes evol-rotate{
